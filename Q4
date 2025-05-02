@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+    char ch;
+    cout << "Enter first fraction: ";
+    cin >> a >> ch >> b;
+    cout << "Enter second fraction: ";
+    cin >> c >> ch >> d;
+    cout << "Product = " << a * c << "/" << b * d << endl;
+    return 0;
+}
